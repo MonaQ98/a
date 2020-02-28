@@ -1,0 +1,20 @@
+package com.example.electricassistant.data.model;
+
+
+import java.text.ParseException;
+import java.text.SimpleDateFormat;
+
+public class DateUtil {
+
+    public static String formatDate(String str) {
+        SimpleDateFormat sf1 = new SimpleDateFormat("yyyyMMdd");
+        SimpleDateFormat sf2 = new SimpleDateFormat("YYYY-MM");
+        String formatStr = "";
+        try {
+            formatStr = sf2.format(sf1.parse(str));
+        } catch (ParseException e) {
+            e.printStackTrace();
+        }
+        return formatStr;
+    }
+}

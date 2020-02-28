@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:id="@+id/linearLayout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        >
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:paddingTop="20dp"
+            android:id="@+id/show_electricity_month"
+            android:text="您有 度的用电等待支付"
+            android:textSize="30sp"
+            >
+
+        </TextView>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="30dp"
+            android:gravity="right"
+            android:paddingTop="20dp"
+            android:text="总计 元"
+            android:id="@+id/electricity_to_money"
+            android:textSize="30sp"
+            >
+
+        </TextView>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="215dp"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:paddingTop="20dp"
+                android:text="您的钱包余额为"
+                android:textSize="30sp"
+                 />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="30dp"
+                android:gravity="right"
+                android:paddingTop="20dp"
+                android:id="@+id/wallet"
+                android:text="元"
+                android:textSize="30sp"
+                >
+
+            </TextView>
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="300dp"
+        android:layout_height="70dp"
+        android:backgroundTint="#4aca6d"
+        android:text="支付"
+        android:layout_gravity="center"
+        android:textColor="#FFFFFF"
+        android:textSize="35dp"
+        >
+
+    </Button>
+
+</LinearLayout>

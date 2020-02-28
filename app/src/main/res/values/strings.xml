@@ -1,0 +1,43 @@
+<resources>
+    <string name="app_name">智能电费</string>
+    <string name="title_home">首页</string>
+    <string name="electricity">用电</string>
+    <string name="title_electricity">用电</string>
+    <string name="title_services">服务</string>
+    <string name="title_user">用户</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="title_activity_login">登录</string>
+    <string name="prompt_email">Email</string>
+    <string name="prompt_password">密码</string>
+    <string name="action_sign_in">Sign in or register</string>
+    <string name="action_sign_in_short">Sign in</string>
+    <string name="welcome">"Welcome !"</string>
+    <string name="invalid_username">输入不符合要求</string>
+    <string name="invalid_password">密码必须大于5位</string>
+    <string name="login_failed">"Login failed"</string>
+
+
+
+    <string name="register_success">Register push success.</string>
+    <string name="register_fail">Register push fail.</string>
+    <string name="recv_passthrough_message"> Receive a passthrough message. Content is \"%1$s\"</string>
+    <string name="click_notification_message"> Clicked a notification message. Content is \"%1$s\"</string>
+    <string name="arrive_notification_message"> Arrived a notification message. Content is \"%1$s\"</string>
+    <string name="set_alias_success"> Set alias \"%1$s\" success.</string>
+    <string name="set_alias_fail"> Set alias fail for %1$s.</string>
+    <string name="unset_alias_success"> Unset alias \"%1$s\" success.</string>
+    <string name="unset_alias_fail"> Unset alias fail for %1$s.</string>
+    <string name="set_account_success"> Set account \"%1$s\" success.</string>
+    <string name="set_account_fail"> Set account fail for %1$s.</string>
+    <string name="unset_account_success"> Unset account \"%1$s\" success.</string>
+    <string name="unset_account_fail"> Unset account fail for %1$s.</string>
+    <string name="subscribe_topic_success"> Subscribe topic \"%1$s\" success.</string>
+    <string name="subscribe_topic_fail"> Subscribe topic fail for %1$s.</string>
+    <string name="unsubscribe_topic_success"> Unsubscribe topic \"%1$s\" success.</string>
+    <string name="unsubscribe_topic_fail"> Unsubscribe topic fail for %1$s.</string>
+    <string name="set_accept_time_success"> Set accept time %1$s - %2$s success.</string>
+    <string name="set_accept_time_fail"> Set accept time fail for %1$s.</string>
+
+</resources>

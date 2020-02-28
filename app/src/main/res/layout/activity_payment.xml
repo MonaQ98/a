@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GridLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:rowCount="5"
+    android:columnCount="4">
+    <!--6行4列
+    实现占满整个屏幕-->
+
+    <EditText
+        android:hint="支付金额"
+        android:id="@+id/Input_money"
+        android:gravity="center"
+        android:layout_columnSpan="4"
+        android:layout_gravity="fill_horizontal"
+        android:layout_rowWeight="1.5"
+        android:textSize="30sp"
+        />
+    <!--跨四列 自动填充 权重2-->
+    //列 行权重为1
+    <Button
+        android:id="@+id/Num7"
+        android:text="7"
+        android:layout_columnWeight="1"
+        android:layout_rowWeight="1"
+        android:textSize="20dp"/>
+    //列 行权重为1
+    <Button
+        android:text="8"
+        android:id="@+id/Num8"
+        android:layout_columnWeight="1"
+        android:layout_rowWeight="1"
+        android:textSize="20dp"/>
+    //列 行权重为1
+    <Button
+        android:text="9"
+        android:id="@+id/Num9"
+        android:layout_columnWeight="1"
+        android:layout_rowWeight="1"
+        android:textSize="20dp"/>
+    //列 行权重为1
+    <Button
+        android:text="←"
+        android:id="@+id/Backspace"
+        android:layout_columnWeight="1"
+        android:layout_rowWeight="2"
+        android:textSize="30dp"
+        android:layout_rowSpan="2"/>
+    //列 行权重为1
+    <Button
+        android:id="@+id/Num4"
+        android:text="4"
+        android:layout_columnWeight="1"
+        android:layout_rowWeight="1"
+        android:textSize="20dp"/>
+    //列 行权重为1
+    <Button
+        android:text="5"
+        android:id="@+id/Num5"
+        android:layout_columnWeight="1"
+        android:layout_rowWeight="1"
+        android:textSize="20dp"/>
+    //列 行权重为1
+    <Button
+        android:text="6"
+        android:id="@+id/Num6"
+        android:layout_columnWeight="1"
+        android:layout_rowWeight="1"
+        android:textSize="20dp"/>
+    //列 行权重为1
+
+    <Button
+        android:text="1"
+        android:id="@+id/Num1"
+        android:layout_columnWeight="1"
+        android:layout_rowWeight="1"
+        android:textSize="20dp"/>
+    //列 行权重为1
+    <Button
+        android:text="2"
+        android:id="@+id/Num2"
+        android:layout_columnWeight="1"
+        android:layout_rowWeight="1"
+        android:textSize="20dp"/>
+    //列 行权重为1
+    <Button
+        android:text="3"
+        android:id="@+id/Num3"
+        android:layout_columnWeight="1"
+        android:layout_rowWeight="1"
+        android:textSize="20dp"/>
+    //列 行权重为1
+    <Button
+    android:text="支付"
+        android:id="@+id/Pay_button"
+    android:layout_rowSpan="2"
+    android:layout_gravity="fill_vertical"
+    android:layout_columnWeight="1"
+    android:layout_rowWeight="2"
+    android:textSize="30dp"
+    android:background="#22ac38"
+        android:textColor="@color/qmui_config_color_white"/>
+    //跨两行 自动填充 绿色 列权重1 行权重2
+    //列 行权重为1
+    <Button
+        android:text="0"
+        android:id="@+id/Num0"
+        android:layout_columnSpan="2"
+        android:layout_gravity="fill_horizontal"
+        android:layout_columnWeight="2"
+        android:layout_rowWeight="1"
+        android:textSize="20dp"/>
+    //跨两列 自动填充 列权重2 行权重1
+    <Button
+        android:text="."
+        android:id="@+id/DecimalPoint"
+        android:layout_columnWeight="1"
+        android:layout_rowWeight="1"
+        android:textSize="20dp"/>
+    //列 行 权重1
+
+
+</GridLayout>

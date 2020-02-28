@@ -1,0 +1,51 @@
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@drawable/button_shape">
+    <GridLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:columnCount="2"
+        android:rowCount="2"
+        android:paddingVertical="8dp"
+
+        >
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="18sp"
+            android:text="未知金额"
+            android:id="@+id/money"
+            android:layout_rowWeight="1"
+            android:layout_columnWeight="1"
+            android:gravity="center"></TextView>
+
+        <TextView
+            android:id="@+id/amount"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:textSize="18sp"
+            android:text="未知度数"
+            android:layout_rowWeight="1"
+            android:layout_columnWeight="1"
+            android:textColor="@color/qmui_config_color_50_blue"/>
+        <TextView
+            android:id="@+id/time"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="right"
+            android:text="未知时间"
+            android:layout_rowWeight="1"
+            android:layout_columnWeight="1"
+            android:layout_columnSpan="2"
+            android:textColor="@color/qmui_config_color_gray_3"/>
+
+    </GridLayout>
+
+
+
+
+
+</LinearLayout>

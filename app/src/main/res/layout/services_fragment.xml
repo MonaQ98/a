@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent">
+    <!--6行4列
+    实现占满整个屏幕-->
+    <!--跨四列 自动填充 权重2-->
+    <LinearLayout
+        style="@style/Button.Compat"
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        android:padding="20dp"
+        android:background="@drawable/button_shape"
+        android:textColor="#000000"
+        android:textSize="20dp">
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <ImageView
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:src="@drawable/ic_electricity"
+                android:tint="#03A9F4"></ImageView>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:text="应急送电"
+                android:textColor="#03A9F4"></TextView>
+        </LinearLayout>
+    </LinearLayout>
+    <LinearLayout
+        android:id="@+id/electricity_standard"
+        style="@style/Button.Compat"
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        android:padding="20dp"
+        android:background="@drawable/button_shape"
+        android:textColor="#000000"
+        android:textSize="20dp">
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <ImageView
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:src="@drawable/ic_news"
+                android:tint="#03A9F4"></ImageView>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:text="电价标准"
+                android:textColor="#03A9F4"></TextView>
+        </LinearLayout>
+    </LinearLayout>
+    <LinearLayout
+        android:id="@+id/policy"
+        style="@style/Button.Compat"
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        android:padding="20dp"
+        android:background="@drawable/button_shape"
+        android:textColor="#000000"
+        android:textSize="20dp">
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <ImageView
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:src="@drawable/ic_project_management"
+                android:tint="#03A9F4"></ImageView>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:text="煤改电补贴"
+                android:textColor="#03A9F4"></TextView>
+        </LinearLayout>
+    </LinearLayout>
+    //列 行权重为1
+
+
+</LinearLayout>
+
